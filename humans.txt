@@ -1,0 +1,21 @@
+/* TEAM */
+	Front-end developer:  Giorgi Gvazava
+	Contact: giorgigvazava87[at]gmail.com 
+	Website: http://404.ge/ 
+	From: Georgia, Tbilisi
+
+	Back-end developer:  Giorgi Gvazava
+	Contact: giorgigvazava87[at]gmail.com 
+	Website: http://404.ge/ 
+	From: Georgia, Tbilisi
+
+	Designer: Giorgi Gvazava
+	Contact: giorgigvazava87[at]gmail.com 
+	Website: http://404.ge/
+	From: Georgia, Tbilisi
+
+/* SITE */
+	Last update: 2017/02/08
+	Language: Franch / English / Russion
+	Doctype: HTML5
+	IDE: Sublime Text

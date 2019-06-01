@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'NotoSansBold';
+  src: url('../fonts/NotoSans-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/NotoSans-Bold.woff') format('woff'), 
+  url('../fonts/NotoSans-Bold.ttf')  format('truetype'), 
+  url('../fonts/NotoSans-Bold.svg#NotoSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansRegular';
+  src: url('../fonts/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/NotoSans-Regular.woff') format('woff'), 
+  url('../fonts/NotoSans-Regular.ttf')  format('truetype'), 
+  url('../fonts/NotoSans-Regular.svg#NotoSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansGeorgian';
+  src: url('../fonts/NotoSansGeorgian.eot?#iefix') format('embedded-opentype'), 
+  	url('../fonts/NotoSansGeorgian.otf')  format('opentype'),
+	url('../fonts/NotoSansGeorgian.woff') format('woff'),
+	url('../fonts/NotoSansGeorgian.ttf')  format('truetype'), 
+	url('../fonts/NotoSansGeorgian.svg#NotoSansGeorgian') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontawesome';
+  src: url('../font-awesome/fonts/fontawesome-webfont.eot') format('embedded-opentype'), 
+  	url('../font-awesome/fonts/fontawesome-webfont.eot')  format('opentype'),
+	url('../font-awesome/fonts/fontawesome-webfont.woff') format('woff'),
+	url('../font-awesome/fonts/fontawesome-webfont.ttf')  format('truetype'), 
+	url('../font-awesome/fonts/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.NotoSansRegular{ font-family: 'NotoSansRegular';  }
+.NotoSansGeorgian{ font-family: 'NotoSansGeorgian';  }
+.NotoSansBold{ font-family: 'NotoSansBold';  }
+
+i{ font-family: 'fontawesome'; font-style: normal; padding:0 5px;}
+.clear{ clear: both;  }
+
+*{ margin: 0; padding: 0; border: 0; outline: 0; }
+.center{ margin: 0 auto; width: 1100px; }
+.header .language{ width: 100%; height: 35px; }
+.header .language ul{ list-style-type: none; margin: 0; padding: 0; float: right; }
+.header .language ul li{ display: inline-block; padding: 0 0 0 5px; }
+.header .language ul li a{ font-size: 16px; text-decoration: none; line-height: 35px; color: #555555; }
+.header .language ul li .active{ color: #00b2e7; }
+.header .language ul li a:hover{ text-decoration: underline; color: #00b2e7;  }
+.header .data{ margin: 40px 0px; }
+.header .data ul{ list-style-type: none; }
+.header .data ul li{ width: 100%; }
+.header .data ul li a{ font-size: 16px; text-decoration: none; line-height: 25px; color: #555555; }
+.header .data ul li a:hover{ text-decoration: underline; }
+
+.title{ margin: 40px 0px; padding: 40px 0px; background-color: #00b2e7; }
+.title .center h1{ margin: 0; padding: 0; font-size: 32px; color: white;  }
+.title .center p{ margin: 0; padding: 0; font-size: 16px; color: white;  }
+
+.subtitle{ margin: 0 0 40px 0px; padding: 0; width: 100%; position: relative; }
+.subtitle::after{ content: ''; margin: 0; padding: 0; width: calc((100% - 1100px) /2 ); height: 45px; background-color: #00b2e7; position: absolute; left: 0px; top: 0px; }
+.subtitle .center span{ display:inline-block; line-height:45px; height: 45px; font-size: 16px; background-color: #00b2e7; padding-right: 25px; color:white; position: relative; }
+.subtitle .center span::after{ content: ''; width: 50px; height: 45px; position: absolute; right: -50px; top: 0px; background-image: url('../img/corner.png'); background-repeat: no-repeat; background-size: 50px 45px; }
+
+.text{ margin: 80px 0px; font-size: 16px; color: #555555; }
+
+
+@media(max-width: 1100px){
+	.center{ width: 90%; margin: 0 5%; }
+	.subtitle .center{ width: 100%; margin: 0px;  }
+	.subtitle .center span{ padding: 0 0 0 15px;  }
+}

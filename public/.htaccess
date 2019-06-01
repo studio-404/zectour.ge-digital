@@ -1,0 +1,9 @@
+Options -Indexes
+
+<Files ~ "^.*">
+  Deny from all
+</Files>
+
+<Files ~ "^.*\.png|.*\.jpg|.*\.gif|.*\.css|.*\.js|.*\.ttf|.*\.eot|.*\.svg|.*\.woff|.*\.otf|.*\.PNG|.*\.JPG|.*\.JPEG|.*\.jpeg|.*\.GIF|.*\.json|.*\.map">
+  Allow from all
+</Files>

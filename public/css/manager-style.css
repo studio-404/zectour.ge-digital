@@ -1,0 +1,134 @@
+@font-face {
+	font-family: 'arc_bold';
+	src: url('../fonts/capex/archyedt-bold.eot');
+	src: local('☺'), url('../fonts/capex/archyedt-bold.woff') format('woff'), 
+	url('../fonts/capex/archyedt-bold.ttf') format('truetype'), 
+	url('../fonts/capex/archyedt-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NotoRegular';
+	src: url('../fonts/capex/NotoSansGeorgian-Regular.eot');
+	src: local('☺'), url('../fonts/capex/NotoSansGeorgian-Regular.woff') format('woff'), 
+	url('../fonts/capex/NotoSansGeorgian-Regular.ttf') format('truetype'), 
+	url('../fonts/capex/NotoSansGeorgian-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*{ margin:0; padding: 0; outline: 0; border: 0; font-family: 'NotoRegular'; }
+body{  background-color: #2e3e4e; overflow-y: auto !important; }
+.clearer{ clear:both; }
+.roboto-font{ font-family: 'roboto';  }
+.hide-me{ display: none; }
+.margin-top-0{ margin-top: 0px; }
+.margin-top-40{ margin-top: 40px; }
+.margin-bottom-20{ margin-bottom: 20px; }
+.width-100-pr-20{ width: calc(100% - 40px); }
+.sign-in-box{ margin: 60px auto; padding: 20px; width: 400px; background-color: white; }
+.login-button{ margin: 20px 0 0 0;  }
+h4{ font-family: 'arc_bold'; }
+h5{ font-family: 'arc_bold'; }
+.mainContainer{ margin: 0 auto; padding: 0; width: 1100px; background-color: white;  }
+.mainContainer nav{ background-color: #2bbbad; }
+.mainContainer nav ul a{ font-family: 'arc_bold'; font-size: 20px; }
+.mainContainer .body{ margin: 0; padding: 20px; min-height: 550px; background-color: white; }
+.backdrop{ background-color: #2bbbad; }
+.pagination li.active{ background-color: #2bbbad; }
+.modal{ max-height: none !important; position: absolute !important; }
+.textarea{ margin: 10px 0 0 0; }
+footer.page-footer .active a{ text-decoration: underline; }
+footer.page-footer{ background-color: #f2f2f2; color: rgba(0, 0, 0, 0.87); }
+footer.page-footer a{ color: #2bbbad; }
+.card-content p a{ color: #2bbbad;  padding:0 20px 0 0; }
+div[class^='editable_']{ width: calc(100% - 10px); min-height: 20px; padding-right: 10px; cursor: pointer; }
+.popupfile0{ background-color: #26a69a !important;  }
+.popupfile0 div{ color: white; }
+.popupfile0 .secondary-content{ color: white; }
+.secondary-content{ margin: 0 5px; padding: 0; line-height: 16px;  }
+.secondary-content span{ line-height: 16px; font-size: 14px;  }
+#sortableFiles-box{ margin-bottom: 80px;  }
+.locationsMap{ margin: 20px 0px; width: 100%; height: 404px; border:solid 2px #f5f5f5; }
+.addMarker{ margin: 0; padding: 0; line-height: 25px; font-size: 0.8rem; cursor: pointer; }
+.addMarker i{ margin: 0; padding: 0; line-height: 25px; font-size: 16px; }
+.addMarker:hover{ text-decoration: underline; }
+.materializeCheckBox{ margin: 5px 0 10px 0px; padding: 10px; width: 100%; background-color: #f2f2f2; }
+form label{ font-size: 18px; color: #000000; font-family: 'NotoRegular';}
+.subServices{
+  background-color: #f5f5f5;
+  padding: 0 10px 10px 10px;
+  margin: -10px 0 10px 0;
+  display: none;
+}
+.subServices .input-field{
+    margin-top: 10px;
+    /*background-color: #0097a7;*/
+    padding: 0 10px;
+}
+.subServices .input-field input{
+  color: #555555;
+}
+.addField{
+  margin: 10px;
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  background-color: #0097a7;
+  color: white;
+}
+/* Table */
+.ui-sortable-helper {
+    display: table;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+}
+
+.table {
+  margin: 0;
+  width: 100%;
+  display: table;
+}
+.table a{ color: #2bbbad; padding: 0 5px; }
+table a{ color: #2bbbad; padding: 0 5px; }
+.ui-state-default{
+  height: 100% !important;
+}
+@media screen and (max-width: 580px) {
+  .table {
+    display: block;
+  }
+}
+
+.row {
+  display: table-row;
+}
+.row.header {
+  font-weight: 900;
+  color: #ffffff;
+}
+.row.green {
+  background: #27ae60;
+}
+.row.materialColor {
+  background: #2bbbad;
+}
+@media screen and (max-width: 580px) {
+  .row {
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}
+@media screen and (max-width: 580px) {
+  .cell {
+    padding: 2px 12px;
+    display: block;
+  }
+}
