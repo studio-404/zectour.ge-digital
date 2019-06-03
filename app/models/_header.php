@@ -66,7 +66,7 @@ class _header
 
 		$out .= "<meta property=\"og:type\" content=\"website\" />\n";
 		$out .= sprintf(
-			"<meta property=\"og:url\" content=\"http://%s%s\"/>\n",
+			"<meta property=\"og:url\" content=\"https://%s%s\"/>\n",
 			$_SERVER["HTTP_HOST"],
 			htmlentities($_SERVER["REQUEST_URI"])
 		);
